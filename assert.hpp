@@ -1,4 +1,4 @@
-#ifndef NW_ASSERT_INCLUDED
+ ifndef NW_ASSERT_INCLUDED
 #define NW_ASSERT_INCLUDED
 
 #include <sstream>
@@ -98,3 +98,4 @@ public:
 #define REGISTER_TEST(testname) namespace { test_registration tr_(#testname, testname); }
 
 #endif
+ 
